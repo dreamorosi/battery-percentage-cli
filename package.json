@@ -1,0 +1,35 @@
+{
+  "name": "battery-percentage-cli",
+  "version": "0.0.9",
+  "description": "Get current MacOS battery level",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamorosi/battery-percentage-cli.git"
+  },
+  "bin": {
+    "battery-percentage": "./cli.js"
+  },
+  "keywords": [
+    "app",
+    "battery",
+    "cli",
+    "cli-app",
+    "level",
+    "percentage",
+    "macos",
+    "mac",
+    "os x",
+    "osx"
+  ],
+  "author": "Andrea Amorosi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreamorosi/battery-percentage-cli/issues"
+  },
+  "homepage": "https://github.com/dreamorosi/battery-percentage-cli#readme",
+  "dependencies": {
+    "execa": "^0.6.0",
+    "meow": "^3.7.0"
+  }
+}
