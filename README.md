@@ -27,7 +27,8 @@ $ battery-percentage --help
 ```
 
 ## Related
+- [battery-percentage](https://github.com/dreamorosi/battery-percentage) - API for this module
 - [battery-level](https://github.com/gillstrom/battery-level) - Get current battery level
 
-## license
+## License
 MIT © [Andrea Amorosi](https://www.andreamorosi.me)

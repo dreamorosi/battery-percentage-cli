@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 const meow = require('meow')
-const fn = require('./')
+const batteryPercentage = require('battery-percentage')
 
 const cli = meow(`
   Usage
@@ -19,4 +19,4 @@ const cli = meow(`
   }
 })
 
-fn(cli.flags).then(res => console.log(res))
+batteryPercentage(cli.flags).then(res => console.log(res))
